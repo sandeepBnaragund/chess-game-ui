@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    width: 720px;
+    height:720px;
+    border: 10px solid #4B484B;
+}
+table{
+    background-color: #EFEFEF;
+}
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+#black{
+    background-color: #938B92;
+}
+.imges{
+    position: absolute;
+    left: 407px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.imges:hover{
+    transform: translate(0px,180px);
+}
+.imges1:hover{
+    transform: translate(0px,180px);
+}
+.imges2:hover{
+    transform: translate(0px,180px);
+}
+.imges3:hover{
+    transform: translate(0px,180px);
+}
+.imges4:hover{
+    transform: translate(0px,180px);
+}
+.imges5:hover{
+    transform: translate(0px,180px);
+}
+.imges6:hover{
+    transform: translate(0px,180px);
+}
+.imges7:hover{
+    transform: translate(0px,180px);
+}
+.imges1{
+    position: absolute;
+    left: 498px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.imges2{
+    position: absolute;
+    left: 588px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.imges3{
+    position: absolute;
+    left: 678px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.imges4{
+    position: absolute;
+    left: 768px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+  
+.imges5{
+    position: absolute;
+    left: 858px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.imges6{
+    position: absolute;
+    left: 948px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.imges7{
+    position: absolute;
+    left: 1038px;
+    top: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.ane{
+    position: absolute;
+    left: 407px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.ane:hover{
+    transform: translate(0px,450px);
+}
+.ane2:hover{
+    transform: translate(0px,450px);
+}
+.ane2{
+    position: absolute;
+    left: 1038px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.onte{
+    position: absolute;
+    left: 588px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.onte2:hover{
+    transform: translate(450px,450px);
+}
+.onte:hover{
+    transform: translate(450px,450px);
+}
+.onte2{
+    position: absolute;
+    left: 858px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.rani{
+    position: absolute;
+    left: 675px;
+    top: 2px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.rani:hover{
+    transform: translate(0px,450px);
+}
+.king{
+    position: absolute;
+    left: 770px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.king:hover{
+    transform: translate(88px,88px);
+}
+.horse{
+    position: absolute;
+    left: 498px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.horse:hover{
+    transform: translate(-90px,180px);
+}
+.horse2:hover{
+    transform: translate(90px,180px);
+}
+.horse2{
+    position: absolute;
+    left: 948px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black-ane{
+    position: absolute;
+    left: 407px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black-ane2{
+    position: absolute;
+    left: 1038px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black8{
+    position: absolute;
+    left: 1038px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black7{
+    position: absolute;
+    left: 948px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black6{
+    position: absolute;
+    left: 858px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black5{
+    position: absolute;
+    left: 768px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black4{
+    position: absolute;
+    left: 678px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black3{
+    position: absolute;
+    left: 588px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black2{
+    position: absolute;
+    left: 498px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black1{
+    position: absolute;
+    left: 407px;
+    bottom: 109px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black1:hover{
+    transform: translate(0px,-180px);
+}
+.black2:hover{
+    transform: translate(0px,-180px);
+}
+.black3:hover{
+    transform: translate(0px,-180px);
+}
+.black4:hover{
+    transform: translate(0px,-180px);
+}
+.black5:hover{
+    transform: translate(0px,-180px);
+}
+.black6:hover{
+    transform: translate(0px,-180px);
+}
+.black7:hover{
+    transform: translate(0px,-180px);
+}
+.black8:hover{
+    transform: translate(0px,-180px);
+}
+.black-horse{
+    position: absolute;
+    left: 498px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black-ane:hover{
+    transform: translate(0px,-450px);
+}
+.black-rani:hover{
+    transform: translate(0px,-450px);
+}
+.black-ane2:hover{
+    transform: translate(0px,-450px);
+}
+.black-horse2{
+    position: absolute;
+    left: 948px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black-horse:hover{
+    transform: translate(90px,-180px);
+}
+.black-horse2:hover{
+    transform: translate(-90px,-180px);
+}
+.black-onte{
+    position: absolute;
+    left: 578px;
+    bottom: 33px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.black-onte:hover{
+    transform: translate(450px,-450px);
+}
+.black-onte2:hover{
+    transform: translate(-450px,-450px);
+}
+.black-onte2{
+    position: absolute;
+    left: 850px;
+    bottom: 33px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+}
+.black-king{
+    position: absolute;
+    left: 669px;
+    bottom: 23px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    transition: 1s linear;
+
+}
+.black-king:hover{
+    transform: translate(-88px,-88px);
+}
+.black-rani{
+    position: absolute;
+    left: 759px;
+    bottom: 29px;
+    width: 80px;
+    height: 80px;
+    border: none;transition: 1s linear;
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .imges,
+    .imges1,
+    .imges2,
+    .imges3,
+    .imges4,
+    .imges5,
+    .imges6,
+    .imges7,
+    .ane,
+    .ane2,
+    .onte,
+    .onte2,
+    .rani,
+    .king,
+    .horse,
+    .horse2,
+    .black-ane,
+    .black-ane2,
+    .black8,
+    .black7,
+    .black6,
+    .black5,
+    .black4,
+    .black3,
+    .black2,
+    .black1,
+    .black-horse,
+    .black-horse2,
+    .black-onte,
+    .black-onte2,
+    .black-king,
+    .black-rani {
+        position: static;
+        transform: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
